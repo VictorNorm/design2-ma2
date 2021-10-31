@@ -5,9 +5,164 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/ab5fd5efd4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles/styles.css" />
   </head>
   <body>
+    <header>
+      <div class="wrapper">
+        <div class="container">
+          <a href="index.html"
+            ><img src="./styles/images/logo.png" alt="logo" class="logo"
+          /></a>
+          <div class="icons">
+            <a href=""
+              ><img
+                src="./styles/images/login.png"
+                alt="An account icon"
+                class="icon"
+              />Login</a
+            >
+            <a href=""
+              ><img
+                src="./styles/images/basket.png"
+                alt="An account icon"
+                class="icon"
+              />Cart</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="wrapper">
+        <ul>
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li>
+            <a href="index.html" class="nav__link nav__link--active"
+              >Products</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="wrapper">
+        <h1>Products</h1>
+        <div
+          class="banner"
+          style="
+            background-image: url(./styles/images/bedroom-g5dde799c4_1920.jpg);
+          "
+        >
+          <div class="banner__container">
+            <p>Bedroom</p>
+            <a href="" class="cta-1">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="productsContainer">
+          <div class="product">
+            <div class="product__image">
+              <img
+                src="./styles/images/product1ps.jpg"
+                alt=""
+                class="product__image"
+              />
+            </div>
+            <div class="product__bottomContainer">
+              <div class="product__info">
+                <p><strong>Le Creuset</strong></p>
+                <p>Vase</p>
+                <p>19 $</p>
+              </div>
+              <div class="product__buttons">
+                <p>Add to cart</p>
+                <div class="addToCart">
+                  <img
+                    src="./styles/images/basket.png"
+                    alt=""
+                    class="addToCart__image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img
+                src="./styles/images/product2ps.jpg"
+                alt=""
+                class="product__image"
+              />
+            </div>
+            <div class="product__bottomContainer">
+              <div class="product__info">
+                <p><strong>Le Creuset</strong></p>
+                <p>Bowl</p>
+                <p>16 $</p>
+              </div>
+              <div class="product__buttons">
+                <p>Add to cart</p>
+                <div class="addToCart">
+                  <img
+                    src="./styles/images/basket.png"
+                    alt=""
+                    class="addToCart__image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__image">
+              <img
+                src="./styles/images/product3ps.jpg"
+                alt=""
+                class="product__image"
+              />
+            </div>
+            <div class="product__bottomContainer">
+              <div class="product__info">
+                <p><strong>Morris</strong></p>
+                <p>Leather case</p>
+                <p>29 $</p>
+              </div>
+              <div class="product__buttons">
+                <p>Add to cart</p>
+                <div class="addToCart">
+                  <img
+                    src="./styles/images/basket.png"
+                    alt=""
+                    class="addToCart__image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper">
+        <p>Contact</p>
+        <p>Terms & Conditions</p>
+        <p>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+        </p>
+      </div>
+    </footer>
     <script src="./scripts/index.js"></script>
   </body>
 </html>

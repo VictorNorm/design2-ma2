@@ -1,0 +1,13 @@
+.cta-1 {
+  background-color: map-get($colors, blonde);
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  &:hover {
+    background-color: darken($color: map-get($colors, blonde), $amount: 10);
+  }
+}

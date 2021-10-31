@@ -1,0 +1,26 @@
+footer {
+  background-color: map-get($colors, coconut);
+
+  .wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.25rem;
+    padding: 2rem 0rem;
+    @media (max-width: 520px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  i {
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+}
