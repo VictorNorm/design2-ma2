@@ -147,6 +147,7 @@ main h1 {
   text-align: center;
 }
 .productsContainer .product__info p {
+  font-family: "Quattrocento";
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0.2rem 0rem;
@@ -167,6 +168,7 @@ main h1 {
 }
 .productsContainer .product__buttons p {
   margin-right: 1rem;
+  font-family: "Merriweather";
 }
 .productsContainer .product__buttons img {
   max-height: 30px;
