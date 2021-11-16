@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/ab5fd5efd4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron&family=Lusitana&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        
+        <div class="container">
+          <a href="index.html"
+            ><img src="./styles/images/logo.png" alt="logo" class="logo"
+          /></a>
+          <div class="container__searchContainer">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              class="search search--lg"
+              placeholder="Search for products"
+            />
+            <i class="fas fa-search"></i>
+          </div>
+
+          <div class="icons">
+            <a href=""
+              ><img
+                src="./styles/images/login.png"
+                alt="An account icon"
+                class="icon"
+              />Login</a
+            >
+            <a href=""
+              ><img
+                src="./styles/images/basket.png"
+                alt="An account icon"
+                class="icon"
+              />Cart</a
+            >
+          </div>
+        </div>
+        <div class="wrapper__searchContainer">
+          <input
+            type="search"
+            name="search"
+            id="search"
+            class="search search--sm"
+            placeholder="Search for products"
+          />
+          <i class="fas fa-search"></i>
+      </div>
+    </header>
+    <nav>
+      <div class="wrapper">
+        <ul>
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li>
+            <a href="index.html" class="nav__link"
+              >Products</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="wrapper">
+        <h1><span class="breadcrumbs">Products</span> > La Creuset Vase</h1>
+        <div class="detailsContainer">
+            <div class="detailsContainer__container">
+                <img src="./styles/images/product1ps.jpg" alt="An image of a vase" class="details__image">
+            </div>
+            <div class="detailsContainer__container">
+                <h2>La creuset Vase</h2>
+                <div class="review">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>This vase is perfect for spatulas, whisks, sleiver, ladles and other kitchen utensils. It will make a colorful addition to your kitchen. Made from the finest materials and produced in the heart of France.</p>
+                <div class="priceContainer">
+                    <p class="price">299</p>
+                    <p class="price price--sale">199 :-</p>
+                </div>
+                <div class="stockContainer">
+                    <p class="stock">In stock</p>
+                    <i class="fas fa-check"></i>
+                </div>
+                <select name="selectColor" id="selectColor">
+                    <option value="red">Red</option>
+                </select>
+                <div class="buttonContainer">
+                    <div class="inputContainer">
+                        <input type="number" name="quantity" id="quantity" placeholder="1">
+                        <div class="inputContainer__buttons">
+                            <button type="submit">+</button>
+                            <button type="submit">-</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="addToCart">Add to Cart</button>
+                </div>
+                
+              
+            </div>
+        </div>
+      </div>
+
+
+    </main>
+    <footer>
+      <div class="wrapper">
+        <p>Contact</p>
+        <p>Terms & Conditions</p>
+        <p>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+        </p>
+      </div>
+    </footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

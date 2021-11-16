@@ -31,7 +31,7 @@ nav {
   }
 
   .nav__link--active {
-    background-color: lighten($color: map-get($colors, coconut), $amount: 20);
-    padding: 0.5rem;
+    text-decoration: underline;
+    padding: 0.25rem;
   }
 }
